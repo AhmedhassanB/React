@@ -12,7 +12,6 @@ const App = () => {
   };
 
   useEffect(() => {
-    //call the function search movie
     searchMovies("avengers");
   }, []);
   return (
