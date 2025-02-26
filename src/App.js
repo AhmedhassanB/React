@@ -1,40 +1,12 @@
-import "./App.css";
-import { useState } from "react";
-// const Example = (props) => {
-//   const name = props.name;
-//   const age = props.age;
-//   const gender = props.gender;
-//   return (
-//     <div>
-//       <h1>my name is {name}</h1>
-//       <h1>my age is {age}</h1>
-//       <h1>my gender is {gender}</h1>
-//     </div>
-//   );
-// };
-
+import React from "react";
+import { useEffect } from "react";
+// fe923914
 const App = () => {
-  const [count, setCount] = useState(0);
+  const API_URL = "https://www.omdbapi.com/?apikey=fe923914";
   return (
     <div className="App">
-      {/* <Example name="ahmed" age="20" gender="Male" /> */}
-      <button
-        onClick={() => {
-          setCount(count + 1);
-        }}
-      >
-        +
-      </button>
-      <h1>{count}</h1>
-      <button
-        onClick={() => {
-          setCount(count - 1);
-        }}
-      >
-        -
-      </button>
+      <h1>welcome to the world of React</h1>
     </div>
   );
 };
-
 export default App;
