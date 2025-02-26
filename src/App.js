@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+const Example = () => {
+  const name = "ahmed";
+  const age = 12;
+  const gender = "Male";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>my name is {name}</h1>
+      <h1>my age is {age}</h1>
+      <h1>my gender is {gender}</h1>
     </div>
   );
-}
+};
+
+const App = () => {
+  return (
+    <div className="App">
+      <Example />
+    </div>
+  );
+};
 
 export default App;
