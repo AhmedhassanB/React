@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: #2a3036;
 }
 
 .app {
@@ -34,6 +34,7 @@ h1 {
     rgba(249, 211, 180, 1) 0%,
     rgba(249, 211, 180, 0) 100%
   );
+  color: oldlace;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
